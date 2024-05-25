@@ -1,4 +1,6 @@
 .DS_Store
+allure-report/
+allure-results/
 node_modules/
 /test-results/
 /playwright-report/
