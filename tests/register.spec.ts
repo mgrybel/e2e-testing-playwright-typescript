@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
   pageManager.getNavigationPage().navigateToRegisterPage();
 });
 
-test('@smoke @regression Create a new customer account', async ({ page }) => {
+test('Create a new customer account @smoke @regression', async ({ page }) => {
   const pageManager = new PageManager(page);
   const randomName = faker.person.fullName();
   const randomEmail = faker.internet.email();
