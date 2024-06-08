@@ -1,6 +1,6 @@
 # E2E Testing using Playwright with TypeScript
 
-Automated end-to-end tests of an e-commerce application built using Playwright with TypeScript.
+Automated end-to-end tests of an e-commerce application built using **Playwright** with **TypeScript**.
 
 ## System Under Test (SUT)
 
