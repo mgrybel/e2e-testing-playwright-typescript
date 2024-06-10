@@ -6,9 +6,9 @@ Automated end-to-end tests of an e-commerce application built using **Playwright
 
 - [Prerequisites](#prerequisites)
 - [System Under Test (SUT)](#system-under-test-sut)
+- [Download the project](#download-the-project)
 - [Installation](#installation)
-- [Running the application](#run-the-application)
-- [Copyright and License](#copyright-and-license)
+- [Run tests](#run-tests)
 
 ### Prerequisites
 
@@ -23,4 +23,25 @@ Install the following prerequisites:
 
 The system under test (SUT) is this [e-commerce application](https://github.com/mgrybel/ecommerce-website) built using **Spring Boot 3** and **React 18**.
 
-To install and run the SUT, follow [these steps](https://github.com/mgrybel/ecommerce-website/blob/master/README.md).
+To run tests in this project, you must first install and run the SUT. Follow [these steps](https://github.com/mgrybel/ecommerce-website/blob/master/README.md).
+
+### Download the project
+
+1. Clone this repository or download the ZIP file and unzip the project.
+2. Open the project in Visual Studio Code.
+
+### Installation
+
+From the **root** directory, run:
+
+```bash
+npm install
+```
+
+### Run tests
+
+From the **root** directory, run:
+
+```bash
+npm playwright test
+```
